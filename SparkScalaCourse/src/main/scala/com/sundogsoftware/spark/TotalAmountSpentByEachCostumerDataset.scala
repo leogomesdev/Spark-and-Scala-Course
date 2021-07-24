@@ -39,5 +39,7 @@ object TotalAmountSpentByEachCostumerDataset {
       .sort("total_amount")
 
     totalByEachCostumer.show(totalByEachCostumer.count.toInt)
+
+    spark.stop()
   }
 }

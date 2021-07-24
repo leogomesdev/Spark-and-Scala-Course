@@ -40,5 +40,7 @@ object FriendsByAgeFromCSV {
       .agg(round(avg("friends"), 1)
         .alias("friends_avg"))
       .sort("age").show()
+
+    spark.stop()
   }
 }
