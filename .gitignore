@@ -3,3 +3,6 @@ target
 SparkScalaCourse/target
 SparkScalaCourse/project/target
 SparkScalaCourse/out
+SparkScalaCourse/sbt/project
+.DS_Store
+SparkScalaCourse/.DS_Store
